@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 17,
-        colo: '#fff'
+        color: '#fff'
     }
 
 });
