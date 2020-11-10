@@ -12,17 +12,17 @@ export default function Shoes(props) {
     
     return (
         <TouchableOpacity style={styles.container} onPress={props.onClick}>
-        <Image
-          source={props.img}
-          style={styles.shoesImg}
-        />
-        <Text style={styles.shoesText}>
-            {filterDesc(props.children)}
-        </Text>
-        <View opacity={0.4}>
-          <Text style={styles.shoesText}> {props.cost} </Text>
-        </View>
-     </TouchableOpacity>
+            <Image
+            source={props.img}
+            style={styles.shoesImg}
+            />
+            <Text style={styles.shoesText}>
+                {filterDesc(props.children)}
+            </Text>
+            <View opacity={0.4}>
+            <Text style={styles.shoesText}> {props.cost} </Text>
+            </View>
+        </TouchableOpacity>
     );
  }
 

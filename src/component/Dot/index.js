@@ -1,16 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet, Dimensions } from 'react-native';
 
-// import { Container } from './styles';
-
-const Dot = (props) => {
-  return <View>
+export default function Dot(props) {
+  return ( <View>
       <Text style={[styles.container,{backgroundColor: props.color}]}> </Text>
 
-  </View>;
+  </View>);
 }
-
-export default Dot;
 
 const styles = StyleSheet.create({
     container: {

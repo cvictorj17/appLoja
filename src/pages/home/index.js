@@ -37,25 +37,25 @@ export default function Home() {
             <Shoes img={require('../../assets/images/1.png')} cost="R$140,90" onClick={()=> navigation.navigate('Detail') }>
               Nike Air Max Dia
             </Shoes>
-            <Shoes img={require('../../assets/images/2.png')} cost="R$280,90" onClick={()=> navigation.navigate('Detail') }>
+            <Shoes img={require('../../assets/images/2.png')} cost="R$280,90" onClick={()=> alert('CLICOU') }>
               Nike Downshifter 10
             </Shoes>
           </View>
 
           <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
-            <Shoes img={require('../../assets/images/3.png')} cost="R$340,00" onClick={()=> navigation.navigate('Detail')}>
+            <Shoes img={require('../../assets/images/3.png')} cost="R$340,00" onClick={()=> alert('CLICOU')}>
                 Nike Air Max Dia
             </Shoes>
-            <Shoes img={require('../../assets/images/4.png')} cost="R$200,00" onClick={()=> navigation.navigate('Detail')}>
+            <Shoes img={require('../../assets/images/4.png')} cost="R$200,00" onClick={()=> alert('CLICOU')}>
                 Nike Downshifter 10
             </Shoes>
           </View>
 
           <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
-            <Shoes img={require('../../assets/images/5.png')} cost="R$140,00" onClick={()=> navigation.navigate('Detail')}>
+            <Shoes img={require('../../assets/images/5.png')} cost="R$140,00" onClick={()=> alert('CLICOU')}>
                 Nike Air Max Dia Sujeito Programador
             </Shoes>
-            <Shoes img={require('../../assets/images/6.png')} cost="R$100,00" onClick={()=> navigation.navigate('Detail')}>
+            <Shoes img={require('../../assets/images/6.png')} cost="R$100,00" onClick={()=> alert('CLICOU')}>
                 Nike Downshifter 10
             </Shoes>
           </View>

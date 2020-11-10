@@ -1,17 +1,13 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
-// import { Container } from './styles';
-
-const Button = () => {
-  return <View style={styles.container}>
-      <TouchableOpacity style={styles.btnContainer}>
-        <Text style= {styles.title}>Comprar</Text>
-      </TouchableOpacity>
-  </View>;
-}
-
-export default Button;
+export default function Button(){
+    return (<View style={styles.container}>
+        <TouchableOpacity style={styles.btnContainer}>
+          <Text style= {styles.title}>Comprar</Text>
+        </TouchableOpacity>
+    </View>);
+};
 
 const styles = StyleSheet.create({
     container: {
